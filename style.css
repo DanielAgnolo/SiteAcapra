@@ -95,6 +95,13 @@ footer {
     margin-bottom: 40px;
 }
 
+.conteudodois {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+
+
 .box {
     background-color: #12685B;
     color: white;
@@ -102,17 +109,21 @@ footer {
     border-radius: 10px;
     flex: 1;
     min-width: 300px;
+    
 }
 
 .image img {
-    border-radius: 15px;
+    border-radius: 115px;
     max-width: 100%;
     height: auto;
     padding: 40px;
 }
 
-.missao {
-    margin-top: 40px;
+.missao a{
+    margin-right: 40px;
+    text-align: right;
+    -ms-flex-align:end;
+
 }
 
 ul {
