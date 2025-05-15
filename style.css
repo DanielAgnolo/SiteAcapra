@@ -75,3 +75,46 @@ footer {
     color: white;
     text-decoration: none;
 }
+
+.principal {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.roxo {
+    color: #6A5ACD;
+    font-weight: bold;
+}
+
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.box {
+    background-color: #12685B;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 300px;
+}
+
+.image img {
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+    padding: 40px;
+}
+
+.missao {
+    margin-top: 40px;
+}
+
+ul {
+    padding-left: 20px;
+}
