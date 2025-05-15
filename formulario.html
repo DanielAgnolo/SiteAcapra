@@ -5,9 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de contato</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <header>
+        <h1>Formulario de contato</h1>
+    </header>
     <nav>
         <a href="">História e missão</a>
         <a href="">Doação</a>
@@ -17,28 +21,38 @@
         <a href="">Informações sobre maus-tratos</a>
         <a href="">Formulário de contato</a>
     </nav>
-    <h1>Formulario de contato</h1>
-    <form>
-        <label for="nome">Nome Completo:</label><br>
-        <input type="text" id="nome" name="nome" placeholder="Digite seu nome Completo"><br><br>
-        <label for="idade">Idade</label><br>
-        <input type="number" id="Idade" name="Idade" min="0"><br>
-        <label for="TipoAnimal">Tipo de Animal</label><br>
-        <label for="Telefone">Telefone</label><br>
-        <input type="number" id="telefone" name="telefone"><br>
-        <label for="cidade">Cidade</label><br>
-        <input type="text" id="cidade" name="cidade" placeholder="Informe a cidade"><br>
-        <label for="Estado">Estado</label><br>
-        <input type="text" id="estado" name="estado" placeholder="Informe o estado"><br>
-        <label for="email">Email</label><br>
-        <input type="email" id="email" name="email" placeholder="Digite o email"><br>
-        <label for="motivocontato">Descreva o motivo do contato</label><br>
-        <input type="text" id="motivocontato" name="motivocontato">
-    </form>
+    <div class="container">
+        <form>
+            <label for="nome">Nome Completo:</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome Completo"><br>
+            <label for="idade">Idade</label><br>
+            <input type="number" id="Idade" name="Idade" min="0"><br>
+            <label for="TipoAnimal">Tipo de Animal</label><br>
+            <select name="TipoAnimal" id="TipoAnimal"><br>
+                <option value="">Selecione</option>
+                <option value="Cachorro">Cachorro</option>
+                <option value="Gato">Gato</option>
+                <option value="Outro">Outro</option>
+            </select><br>
+            <label for="Telefone">Telefone</label><br>
+            <input type="number" id="telefone" name="telefone" placeholder="(__) _____-____"><br>
+            <label for="cidade">Cidade</label><br>
+            <input type="text" id="cidade" name="cidade" placeholder="Informe a cidade"><br>
+            <label for="Estado">Estado</label><br>
+            <input type="text" id="estado" name="estado" placeholder="Informe o estado"><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="Digite o email"><br>
+            <label for="motivocontato">Descreva o motivo do contato</label><br>
+            <textarea name="motivo" id="motivo"></textarea><br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
     <footer>
-        <h4>Siga Nossas redes</h4>
-        <a href="https://www.instagram.com">instagram</a><br>
-        <a href="https://facebook.com">facebook</a>
+        <div class="social">
+            <p>Siga Nossas redes</p>
+            <a href="https://www.instagram.com">instagram</a><br>
+            <a href="https://facebook.com">facebook</a>
+        </div>
     </footer>
 </body>
 
