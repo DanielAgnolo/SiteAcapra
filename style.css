@@ -154,3 +154,18 @@ ul {
     background-color: #12685B;
     list-style-position: inside    
 }
+
+.topicos {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    min-width: 300px;
+}
+
+.denuncias {
+    text-align: center;
+}
+
+.cor {
+    color: #6A5ACD;
+}
