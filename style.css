@@ -242,11 +242,17 @@ ul {
 
 
 .footer {
+  
   background-color: #064e3b;
   padding: 40px;
   font-family: Arial, sans-serif;
   font-size: 14px;
   color: #ffffff;
+
+}
+
+p {
+  text-align: center;
 }
 
 .footer-container {
