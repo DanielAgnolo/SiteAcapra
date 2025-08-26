@@ -242,13 +242,11 @@ ul {
 
 
 .footer {
-  
   background-color: #064e3b;
-  padding: 40px;
+  padding: 10px 15px; 
   font-family: Arial, sans-serif;
   font-size: 14px;
   color: #ffffff;
-
 }
 
 p {
@@ -259,22 +257,23 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 10px; 
 }
 
 .Maisinformacao, .contato-info {
   flex: 1;
-  min-width: 250px;
-  margin-bottom: 20px;
+  min-width: 200px;
+  margin-bottom: 8px;
 }
 
 .colocar-email {
   width: 100%;
-  padding: 8px;
-  margin: 5px 0;
+  padding: 6px;
+  margin: 3px 0;
 }
 
 .botao {
-  padding: 8px 16px;
+  padding: 6px 12px;
   background-color: #ccc;
   border: none;
   cursor: pointer;
@@ -291,16 +290,17 @@ p {
 
 .social-icones {
   text-align: center;
-  margin: 20px 0;
+  margin: 8px 0;
 }
 
 .social-icones a img {
-  margin: 0 8px;
+  margin: 0 5px;
+  width: 20px; 
 }
 
 .cnpj {
   text-align: center;
-  align-items: center;
+  margin-top: 5px; 
 }
 
 .imgem {
