@@ -40,8 +40,18 @@ nav a {
 }
 
 h2 {
+background: linear-gradient(90deg, #6A5ACD 0%, #12685B 100%);
+    color: #fff;
+    padding: 20px 36px;
+    border-radius: 22px;
+    margin: 32px auto;
+    font-size: 1.3em;
+    font-weight: bold;
     text-align: center;
-    margin-bottom: 20px;
+    box-shadow: 0 4px 16px rgba(106,90,205,0.18);
+    max-width: 750px;
+    letter-spacing: 1px;
+    border: 2px solid #12685B;
 }
 
 label {
@@ -317,5 +327,15 @@ p {
 
 h1 {
     text-align: center;
-    font: bold;
+    font-weight: bold;
+    background: linear-gradient(90deg, #0e8f73 0%, #2f6f65 100%);
+    color: #fff;
+    padding: 22px 0;
+    border-radius: 24px;
+    margin: 35px auto 25px auto;
+    box-shadow: 0 4px 16px rgba(106,90,205,0.12);
+    letter-spacing: 2px;
+    font-size: 2.2em;
+    max-width: 800px;
 }
+
